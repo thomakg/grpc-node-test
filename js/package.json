@@ -1,0 +1,7 @@
+{
+  "name": "@myworld/inner-js",
+  "version": "$version",
+  "scripts": {},
+  "main": "index.js",
+  "author": "me"
+}

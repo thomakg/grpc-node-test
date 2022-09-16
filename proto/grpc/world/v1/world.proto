@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package node.world;
+
+service WorldService {
+    rpc CreateWorldDates(CreateWorldDatesRequest) returns(CreateWorldDatesResponse);
+}
+
+message CreateWorldDatesRequest{
+    string name = 1;
+}
+
+message CreateWorldDatesResponse{
+    repeated Date dates = 1;
+}
+
+message Date {
+  int32 year = 1;
+  int32 month = 2;
+  int32 day = 3;
+}

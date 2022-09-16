@@ -1,0 +1,8 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+node/node_modules/
+node/dist/
+node/.env
+
+js/grpc
